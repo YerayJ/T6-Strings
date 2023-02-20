@@ -45,5 +45,8 @@ public class Ejercicio2B {
         // Muestra que ha ganado
         System.out.println("\n HAS GANADO");
 
+        // Cierre de escáner
+        key.close();
+
     }
 }

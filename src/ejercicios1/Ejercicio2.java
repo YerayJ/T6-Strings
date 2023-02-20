@@ -29,5 +29,8 @@ public class Ejercicio2 {
         // Muestra que ha ganado
         System.out.println("Has ganado");
 
+        // Cierre de escáner
+        key.close();
+
     }
 }

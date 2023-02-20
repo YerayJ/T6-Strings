@@ -19,5 +19,8 @@ public class Ejercicio1 {
 
         // Compara las cadenas
         System.out.println(cad1.length()>cad2.length()?cad2 + " es más pequeña": cad1 + " es más pequeña");
+
+        // Cierre de escáner
+        key.close();
     }
 }
