@@ -26,6 +26,7 @@ public class Ejercicio2B {
             // Inicializa la String para guardar las letras
             muestraUsuario = "";
 
+
             // Bucle que recorre la String
             for (int i = 0; i < passwd.length(); i++) {
                 // Compara la letra de la frase del usuario con la de la contraseña
@@ -40,7 +41,7 @@ public class Ejercicio2B {
             System.out.println(muestraUsuario);
 
             // Compara las cadenas
-        } while(!muestraUsuario.equals(passwd));
+        } while(!usuarioString.equals(passwd));
 
         // Muestra que ha ganado
         System.out.println("\n HAS GANADO");
