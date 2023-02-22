@@ -44,5 +44,7 @@ public class Ejercicio8 {
             System.out.println("No está en idioma Javalandia");
         }
 
+        // Cierre de escáner
+        key.close();
     }
 }
