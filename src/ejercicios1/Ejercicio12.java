@@ -29,7 +29,7 @@ public class Ejercicio12 {
         Arrays.sort(letras2);
 
         // Compara los arrays
-        if (Arrays.equals(letras1,letras2)  ) {
+        if (Arrays.equals(letras1,letras2)) {
             System.out.println("Son anagramas");
         } else {
             System.out.println("No son anagramas");
